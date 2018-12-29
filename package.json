@@ -1,0 +1,28 @@
+{
+  "name": "restwithnode",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kimseasok/REST-with-express.git"
+  },
+  "keywords": [
+    "\"node",
+    "express\""
+  ],
+  "author": "Kimsea Sok",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kimseasok/REST-with-express/issues"
+  },
+  "homepage": "https://github.com/kimseasok/REST-with-express#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "gulp": "^4.0.0",
+    "gulp-nodemon": "^2.4.2"
+  }
+}
