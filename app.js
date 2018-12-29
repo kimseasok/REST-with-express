@@ -27,6 +27,18 @@ bookRouter.route('/books')
     })
     .post()
 
+bookRouter.route('/books/:bookId')
+    .get((req, res) => {
+        Book.findById(req.params.bookId, (err, book) => {
+            if (err) {
+                res.status(500).send(err);
+            } else {
+                res.json(book);
+            }
+        });
+    })
+    .post()
+
 app.use('/api', bookRouter);
 
 app.listen(port, () => {
